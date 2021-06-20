@@ -33,4 +33,5 @@ Use the Branch SDK (branch.io) to create and power the links that point back to 
 
   s.frameworks = 'CoreServices', 'SystemConfiguration'
   s.ios.frameworks = 'WebKit', 'iAd', 'CoreTelephony'
+  s.ios.weak_framework = 'AdServices'
 end
